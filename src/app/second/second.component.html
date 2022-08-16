@@ -1,0 +1,18 @@
+<div class="container">
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Body</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor = "let value of result">
+                <td>{{value.id}}</td>
+                <td>{{value.title}}</td>
+                <td>{{value.body}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
